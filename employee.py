@@ -1,2 +1,4 @@
 def employee(name,age,salary,department_id):
-    pass
+    return name,age,salary,department_id
+
+print(employee("ALS",22,25000,1))
